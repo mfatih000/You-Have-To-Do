@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(115deg, #f3ef0511, #317979);
+  background: linear-gradient(90deg, #f3ef0511, #317979);
+  height: 100%;
   }
   
   * {
@@ -152,3 +153,69 @@ body {
     text-align: center;
     color: #cccc;
   }
+
+.dropbtn {
+  background-color: #e3e156c3;
+  color: #333;
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f3ef05;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f3ef05;
+}
+
+.show {
+  display: block;
+}
+
+.add-tag button{
+  display: block;
+    width: 10%;
+    height: 50px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    background:  #317979;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-tag input{
+  display: block;
+  width: 90%;
+  height: 40px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.row{
+  display: flex;
+  align-items: start;
+}
+
+
